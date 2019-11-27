@@ -2,7 +2,7 @@
   "_args": [
     [
       "@fortawesome/fontawesome-free@5.8.1",
-      "/Users/evandro/Desktop/Sites/curriculo"
+      "/workspace/evandrosilvapinto.github.io"
     ]
   ],
   "_from": "@fortawesome/fontawesome-free@5.8.1",
@@ -27,7 +27,7 @@
   ],
   "_resolved": "https://registry.npmjs.org/@fortawesome/fontawesome-free/-/fontawesome-free-5.8.1.tgz",
   "_spec": "5.8.1",
-  "_where": "/Users/evandro/Desktop/Sites/curriculo",
+  "_where": "/workspace/evandrosilvapinto.github.io",
   "author": {
     "name": "Dave Gandy",
     "email": "dave@fontawesome.com",

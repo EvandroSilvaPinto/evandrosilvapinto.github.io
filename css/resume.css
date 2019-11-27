@@ -191,3 +191,17 @@ a {
 a:hover, a:focus, a:active {
   color: #824027;
 }
+
+.resume-content p, .resume-section p {
+  text-align: justify;
+}
+
+.dev-icons {
+  text-align: center;
+}
+
+@media screen and (max-width: 320px) {
+  .subheading {
+    font-size: 22px;
+  }
+}
