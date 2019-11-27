@@ -4,3 +4,18 @@
 @import "nav.scss";
 @import "resume-item.scss";
 @import "bootstrap-overrides.scss";
+
+.resume-content, .resume-section{
+    p{
+        text-align: justify;
+    }
+}
+.dev-icons{
+    text-align: center;
+}
+
+@media screen and (max-width: 320px){
+    .subheading{
+        font-size: 22px;
+    }
+}
