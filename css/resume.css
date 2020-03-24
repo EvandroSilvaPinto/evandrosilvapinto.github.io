@@ -1,6 +1,6 @@
 /*!
  * Start Bootstrap - Resume v5.0.5 (https://startbootstrap.com/template-overviews/resume)
- * Copyright 2013-2019 Start Bootstrap
+ * Copyright 2013-2020 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
  */
 
@@ -190,4 +190,18 @@ a {
 
 a:hover, a:focus, a:active {
   color: #824027;
+}
+
+.resume-content p, .resume-section p {
+  text-align: justify;
+}
+
+.dev-icons {
+  text-align: center;
+}
+
+@media screen and (max-width: 320px) {
+  .subheading {
+    font-size: 22px;
+  }
 }
