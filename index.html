@@ -275,24 +275,27 @@
       <div id="whatswidget-widget-wrapper" class="whatswidget-widget-wrapper" style="all:revert;">
         <div id="whatswidget-conversation" class="whatswidget-conversation" style="display: none; opacity: 0;">
           <div class="whatswidget-conversation-header" style="all:revert;">
-            <div id="whatswidget-conversation-title" class="whatswidget-conversation-title" style="all:revert;">Oi!
+            <div id="whatswidget-conversation-title" class="whatswidget-conversation-title" style="all:revert;">
+              <span>
+                Atendimento
+              </span>
             </div>
           </div>
           <div id="whatswidget-conversation-message" class="whatswidget-conversation-message " style="all:revert;">
-            <span style="all:revert;">em que posso ajudar?</span></div>
+            <span style="all:revert;">Olá, em que posso ajudar?</span></div>
           <div class="whatswidget-conversation-cta" style="all:revert;"> <a style="all:revert;"
               id="whatswidget-phone-desktop" target="_blank" href="https://web.whatsapp.com/send?phone=5565992553440"
-              class="whatswidget-cta whatswidget-cta-desktop">Enviar Mensagem</a> <a id="whatswidget-phone-mobile"
-              target="_blank" href="https://wa.me/5565992553440" class="whatswidget-cta whatswidget-cta-mobile"
-              style="all:revert;">Enviar Mensagem</a></div>
+              class="whatswidget-cta whatswidget-cta-desktop" style="color:#FFF">Enviar Mensagem</a> <a
+              id="whatswidget-phone-mobile" target="_blank" href="https://wa.me/5565992553440"
+              class="whatswidget-cta whatswidget-cta-mobile" style="all:revert;">Enviar Mensagem</a></div>
         </div>
-        <div id="whatswidget-conversation-message-outer" class="whatswidget-conversation-message-outer"
+        <!-- <div id="whatswidget-conversation-message-outer" class="whatswidget-conversation-message-outer"
           style="all:revert;"> <span id="whatswidget-text-header-outer" class="whatswidget-text-header-outer"
             style="all:revert;">Evandro Silva Pinto</span><br>
           <div id="whatswidget-text-message-outer" class="whatswidget-text-message-outer" style="all:revert;">Olá, em
             que
             posso ajudar?</div>
-        </div>
+        </div>-->
         <div class="whatswidget-button-wrapper" style="all:revert;">
           <div class="whatswidget-button" id="whatswidget-button" style="all:revert;">
             <div style="margin:0 auto;width:38.5px;all:revert;"> <img class="whatswidget-icon" style="all:revert;"
@@ -300,8 +303,7 @@
             </div>
           </div>
         </div>
-        <script id="whatswidget-script"
-          type="text/javascript">document.getElementById("whatswidget-conversation").style.display = "none"; document.getElementById("whatswidget-conversation").style.opacity = "0"; var button = document.getElementById("whatswidget-button"); button.addEventListener("click", openChat); var conversationMessageOuter = document.getElementById("whatswidget-conversation-message-outer"); conversationMessageOuter.addEventListener("click", openChat); var chatOpen = !1; function openChat() { 0 == chatOpen ? (document.getElementById("whatswidget-conversation").style.display = "block", document.getElementById("whatswidget-conversation").style.opacity = 100, chatOpen = !0, document.getElementById("whatswidget-conversation-message-outer").style.display = "none") : (document.getElementById("whatswidget-conversation").style.opacity = 0, document.getElementById("whatswidget-conversation").style.display = "none", chatOpen = !1) }
+        <script id="whatswidget-script" type="text/javascript">document.getElementById("whatswidget-conversation").style.display = "none"; document.getElementById("whatswidget-conversation").style.opacity = "0"; var button = document.getElementById("whatswidget-button"); button.addEventListener("click", openChat); var conversationMessageOuter = document.getElementById("whatswidget-conversation-message-outer"); conversationMessageOuter.addEventListener("click", openChat); var chatOpen = !1; function openChat() { 0 == chatOpen ? (document.getElementById("whatswidget-conversation").style.display = "block", document.getElementById("whatswidget-conversation").style.opacity = 100, chatOpen = !0, document.getElementById("whatswidget-conversation-message-outer").style.display = "none") : (document.getElementById("whatswidget-conversation").style.opacity = 0, document.getElementById("whatswidget-conversation").style.display = "none", chatOpen = !1) }
         </script>
       </div>
       <style id="whatswidget-style">
