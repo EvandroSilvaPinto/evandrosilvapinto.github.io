@@ -1,0 +1,7 @@
+# robots.txt gerado automaticamente
+# Permitir todos os robôs a indexarem o site
+User-agent: *
+Allow: /
+
+# Sitemap (substitua pelo seu domínio real se necessário)
+Sitemap: https://evandrosilvapinto.github.io/sitemap.xml
